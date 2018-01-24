@@ -1,3 +1,5 @@
+/********      CSS RESET      ********/
+
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -46,8 +48,12 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-/******      End Reset      ******/
 
+/*********      END RESET      *********/
+
+
+
+/*********     BEGIN CSS     *********/
 
 body {
 	margin: auto;
@@ -105,12 +111,12 @@ a, footer {
 }
 
 a:link {
-	text-decoration: none;
 	color: black;
+	text-decoration: none;
 }
 
 a:visited {
-	color: black;
+  color: black;
 }
 
 a:hover {
@@ -118,6 +124,10 @@ a:hover {
 }
 
 footer {
+	color: tomato;
+	font-size: .8em;
   padding-top: 50px;
 	clear: both;
 	}
+
+/*********      END CSS      *********/
