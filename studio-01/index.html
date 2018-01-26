@@ -3,13 +3,60 @@
 
 
 <head>
-    <title>Make Your Own Smoothie</title>
-    <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.16/p5.js"></script>
-    <script src="sketch.js"></script> -->
+  <title>Make Your Own Smoothie</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
-  <h1>Make Your Own Smoothie</h1>
+  <form id="form" name="form">
+    <h1>Smoothie Time</h1>
+    <ul>
+      <li>
+        <label for="smoothie1">Favorite Fruit:</label>
+        <input type="text" id="smoothie1" name="smoothie1" required/>
+      </li>
+      <li>
+        <label for="smoothie2">Favorite Vegetable:</label>
+        <input type="text" id="smoothie2" name="smoothie2" />
+      </li>
+      <li>
+        <label for="smoothie3">Adjective:</label>
+        <input type="text" id="smoothie3" name="smoothie3" />
+      </li>
+      <li>
+        <label for="smoothie4">Favorite Color:</label>
+        <input type="text" id="smoothie4" name="smoothie4" />
+      </li>
+      <li>
+        <label for="smoothie5">Favorite Cuisine:</label>
+        <input type="text" id="smoothie5" name="smoothie5" />
+      </li>
+      <li>
+        <label for="smoothie6">Noun (Edible....or not):</label>
+        <input type="text" id="smoothie6" name="smoothie6" />
+      </li>
+      <li>
+        <label for="smoothie7">Adverb:</label>
+        <input type="text" id="smoothie7" name="smoothie7" />
+      </li>
+      <li>
+        <label for="smoothie8">Favorite Alcoholic Beverage:</label>
+        <input type="text" id="smoothie8" name="smoothie8" />
+      </li>
+      <li>
+        <label for="smoothie9">Noun:</label>
+        <input type="text" id="smoothie9" name="smoothie9" />
+      </li>
+    </ul>
+  </form>
+
+  <div class="button">
+    <button id="submit-button">BLEND!</button>
+  </div>
+
+  <script src="sketch.js" type="text/javascript"></script>
+
 </body>
+
+</html>
