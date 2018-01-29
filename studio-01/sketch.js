@@ -17,7 +17,7 @@ var smoothie9 = document.form.smoothie9.value;
 
 var myMsg = document.getElementById("myMsg");
 
-myMsg.innerHTML = smoothie1 + smoothie2 + smoothie3 + smoothie4 + smoothie5 + smoothie6 + smoothie7 + smoothie8 + smoothie9;
+myMsg.innerHTML = smoothie1 + " " + smoothie2 + " " + smoothie3 + " " + smoothie4 + " " + smoothie5 + " " + smoothie6 + " " + smoothie7 + " " + smoothie8 + " " + smoothie9;
 
 return false;
 
