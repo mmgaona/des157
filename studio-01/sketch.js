@@ -1,5 +1,3 @@
-document.addEventListener("DOMContentLoaded", function(event) {
-
 document.form.onsubmit = processForm;
 document.form.onreset = clearForm;
 
@@ -24,9 +22,7 @@ return false;
 }
 
 function clearForm() {
-		var myMsg = document.getElementById("myMsg");
+    var myMsg = myMsg.document.getElementById("myMsg");
 		myMsg.innerHTML = "";
 		myMsg.style.display = "none";
 	}
-
-});
