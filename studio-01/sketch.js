@@ -17,12 +17,13 @@ var myMsg = document.getElementById("myMsg");
 
 myMsg.innerHTML = smoothie1 + " " + smoothie2 + " " + smoothie3 + " " + smoothie4 + " " + smoothie5 + " " + smoothie6 + " " + smoothie7 + " " + smoothie8 + " " + smoothie9;
 
+myMsg.className = "show";
+
 return false;
 
 }
 
 function clearForm() {
-    var myMsg = myMsg.document.getElementById("myMsg");
-		myMsg.innerHTML = "";
-		myMsg.style.display = "none";
-	}
+    var myMsg = document.getElementById("myMsg");
+		myMsg.className = "hide";
+}

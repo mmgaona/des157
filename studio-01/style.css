@@ -1,15 +1,23 @@
 /*********      BEGIN CSS      *********/
 
-h1{
+h1 {
 	font-size: 3em;
 	font-family: helvetica, sans-serif;
 }
 
-ul{
+ul {
 list-style: none;
 }
 
 .inputform {
 	display: inline-flex;
 	position: relative;
+}
+
+.hide{
+	display: none;
+}
+
+.show {
+    display: block;
 }
