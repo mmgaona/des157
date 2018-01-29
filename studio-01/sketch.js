@@ -1,27 +1,32 @@
-console.log("JS is now starting");
+document.addEventListener("DOMContentLoaded", function(event) {
 
-var submitButton = document.getElementById('submit-button');
+document.form.onsubmit = processForm;
+document.form.onreset = clearForm;
 
-    var submitIt = function() {
+function processForm() {
 
-        var smoothie1 = document.form.smoothie1.value;
-        var smoothie2 = document.form.smoothie2.value;
-        var smoothie3 = document.form.smoothie3.value;
-        var smoothie4 = document.form.smoothie4.value;
-        var smoothie5 = document.form.smoothie5.value;
-        var smoothie6 = document.form.smoothie6.value;
-        var smoothie7 = document.form.smoothie7.value;
-        var smoothie8 = document.form.smoothie8.value;
-        var smoothie9 = document.form.smoothie9.value;
-        var result = document.getElementById("directions");
+var smoothie1 = document.form.smoothie1.value;
+var smoothie2 = document.form.smoothie2.value;
+var smoothie3 = document.form.smoothie3.value;
+var smoothie4 = document.form.smoothie4.value;
+var smoothie5 = document.form.smoothie5.value;
+var smoothie6 = document.form.smoothie6.value;
+var smoothie7 = document.form.smoothie7.value;
+var smoothie8 = document.form.smoothie8.value;
+var smoothie9 = document.form.smoothie9.value;
 
-        result.innerHTML = [smoothie1  + smoothie2 + smoothie3 + smoothie4 +
-          smoothie5 + smoothie6 + smoothie7 + smoothie6 + smoothie8 +
-          smoothie9 + smoothie2 + smoothie8];
-        };
+var myMsg = document.getElementById("myMsg");
 
-        return false;
+myMsg.innerHTML = smoothie1 + smoothie2 + smoothie3 + smoothie4 + smoothie5 + smoothie6 + smoothie7 + smoothie8 + smoothie9;
 
-        submitButton.addEventListener('click', submitIt);
+return false;
 
-console.log("JS has successfully hacked your mainframe");
+}
+
+function clearForm() {
+		var myMsg = document.getElementById("myMsg");
+		myMsg.innerHTML = "";
+		myMsg.style.display = "none";
+	}
+
+});
