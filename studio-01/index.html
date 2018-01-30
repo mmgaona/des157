@@ -12,23 +12,22 @@
 
 <body>
   <h1>Smoothie Time</h1>
-  <div class=wrapper>
     <form id="form" name="form">
       <ul>
         <li>
-          <label for="smoothie1">Favorite Fruit:</label>
+          <label for="smoothie1">Favorite Fruit (Plural):</label>
           <input type="text" name="smoothie1" required
             oninvalid="this.setCustomValidity('Hey! Smoothie Time!')"
             oninput="setCustomValidity('')"/>
         </li>
         <li>
-          <label for="smoothie2">Favorite Vegetable:</label>
+          <label for="smoothie2">Favorite Vegetable (Plural):</label>
           <input type="text" name="smoothie2" required
             oninvalid="this.setCustomValidity('Hey! Smoothie Time!')"
             oninput="setCustomValidity('')"/>
         </li>
         <li>
-          <label for="smoothie3">Adjective:</label>
+          <label for="smoothie3">Least Favorite Fruit (Plural):</label>
           <input type="text" name="smoothie3" required
             oninvalid="this.setCustomValidity('Hey! Smoothie Time!')"
             oninput="setCustomValidity('')"/>
@@ -46,7 +45,7 @@
             oninput="setCustomValidity('')"/>
         </li>
         <li>
-          <label for="smoothie6">Noun (Edible....or not):</label>
+          <label for="smoothie6">Noun (Plural, Edible....or not):</label>
           <input type="text" name="smoothie6" required
             oninvalid="this.setCustomValidity('Hey! Smoothie Time!')"
             oninput="setCustomValidity('')"/>
@@ -63,12 +62,6 @@
             oninvalid="this.setCustomValidity('Hey! Smoothie Time!')"
             oninput="setCustomValidity('')"/>
         </li>
-        <li>
-          <label for="smoothie9">Noun:</label>
-          <input type="text" name="smoothie9" required
-            oninvalid="this.setCustomValidity('Hey! Smoothie Time!')"
-            oninput="setCustomValidity('')"/>
-        </li>
 
        <div class="button">
         <input type="submit" value="BLEND!" />
@@ -79,19 +72,23 @@
 
     </form>
 
-  </div>
 
-  <div class=wrapper>
+
     <h2>Directions</h2>
-  </div>
 
- <div class=wrapper>
     <p id="myMsg">
     </p>
-  </div>
+
+
 
   <script src="script.js" type="text/javascript"></script>
 
 </body>
+
+<footer>
+  <a href="https://validator.w3.org/check?uri=referer">HTML5</a> |
+  <a href="https://jigsaw.w3.org/css-validator/check/referer">CSS</a> |
+  <a>Gif provided by Giphy</a>
+</footer>
 
 </html>

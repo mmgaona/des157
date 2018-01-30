@@ -1,60 +1,90 @@
 /*********      BEGIN CSS      *********/
 
-body{
-	max-width: 1000px;
-	background-image: url(images/image.gif);
-	background-repeat: repeat;
-	background-size: 400px;
-	margin: auto;
+body {
+  max-width: 1000px;
+  background-image: url(images/image.gif);
+  background-repeat: repeat;
+  background-size: 400px;
+  margin: auto;
 }
 
 h1 {
-	font-size: 6em;
-	font-family: helvetica, sans-serif;
-	color: white;
-	text-shadow: -7px 7px #ff0000;
+  font-size: 6em;
+  font-family: helvetica, sans-serif;
+  color: white;
+  text-shadow: -7px 7px #ff0000;
 }
 
 h2 {
-	margin-left: 50%;
-	font-size: 2em;
-	font-family: helvetica, sans-serif;
-	color: white;
-	text-shadow: -3px 3px #ff0000;
+  position: absolute;
+  display: inline-block;
+  margin-left: 40%;
+  font-size: 2em;
+  font-family: helvetica, sans-serif;
+  color: white;
+  text-shadow: -3px 3px #ff0000;
+  text-align: left;
 }
 
 li {
-	padding-bottom: 8px;
+  padding-bottom: 8px;
 }
 
 ul {
-padding: 15px;
-background-color: rgba(0,0,0,0.5);
-list-style: none;
-font-family: helvetica, sans-serif;
-color: white;
+  position: absolute;
+  display: inline-block;
+  max-width: 415px;
+  padding: 15px;
+  background-color: rgba(0, 0, 0, 0.7);
+  list-style: none;
+  font-family: helvetica, sans-serif;
+  color: white;
 }
-
 
 .button {
-	padding-top: 5%;
+  padding-top: 5%;
 }
 
-.wrapper {
-	display: inline-flex;
-	position: relative;
-}
-
-.hide{
-	display: none;
+.hide {
+  display: none;
 }
 
 .show {
-    display: block;
+  display: inline-block;
 }
 
-p{
+p {
+	background-color:rgba(0, 0, 0, 0.7);
+	position: absolute;
+	display: inline-block;
+	margin-left: 40%;
+  font-family: helvetica, sans-serif;
+  font-size: 1.175em;
+  color: white;
+	text-align: center;
+}
+
+#myMsg.show {
+  width: 400px;
+	padding: 10px;
+  margin-top: 6%;
+}
+
+footer{
+	text-align: center;
+	padding-top: 500px;
 	font-family: helvetica, sans-serif;
-	font-size: 1em;
+	color: white;
+	position: relative;
+	clear: both;
+}
+
+a:visited {
+	color: white;
+	text-decoration: none;
+}
+
+a:link {
+	text-decoration: none;
 	color: white;
 }
