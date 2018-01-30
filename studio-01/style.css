@@ -1,15 +1,46 @@
 /*********      BEGIN CSS      *********/
 
+body{
+	max-width: 1000px;
+	background-image: url(images/image.gif);
+	background-repeat: repeat;
+	background-size: 400px;
+	margin: auto;
+}
+
 h1 {
-	font-size: 3em;
+	font-size: 6em;
 	font-family: helvetica, sans-serif;
+	color: white;
+	text-shadow: -7px 7px #ff0000;
+}
+
+h2 {
+	margin-left: 50%;
+	font-size: 2em;
+	font-family: helvetica, sans-serif;
+	color: white;
+	text-shadow: -3px 3px #ff0000;
+}
+
+li {
+	padding-bottom: 8px;
 }
 
 ul {
+padding: 15px;
+background-color: rgba(0,0,0,0.5);
 list-style: none;
+font-family: helvetica, sans-serif;
+color: white;
 }
 
-.inputform {
+
+.button {
+	padding-top: 5%;
+}
+
+.wrapper {
 	display: inline-flex;
 	position: relative;
 }
@@ -20,4 +51,10 @@ list-style: none;
 
 .show {
     display: block;
+}
+
+p{
+	font-family: helvetica, sans-serif;
+	font-size: 1em;
+	color: white;
 }

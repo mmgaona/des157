@@ -12,66 +12,85 @@
 
 <body>
   <h1>Smoothie Time</h1>
-  <div class=inputform>
+  <div class=wrapper>
     <form id="form" name="form">
       <ul>
         <li>
           <label for="smoothie1">Favorite Fruit:</label>
-          <input type="text" name="smoothie1" required/>
+          <input type="text" name="smoothie1" required
+            oninvalid="this.setCustomValidity('Hey! Smoothie Time!')"
+            oninput="setCustomValidity('')"/>
         </li>
         <li>
           <label for="smoothie2">Favorite Vegetable:</label>
-          <input type="text" name="smoothie2" required/>
+          <input type="text" name="smoothie2" required
+            oninvalid="this.setCustomValidity('Hey! Smoothie Time!')"
+            oninput="setCustomValidity('')"/>
         </li>
         <li>
           <label for="smoothie3">Adjective:</label>
-          <input type="text" name="smoothie3" required/>
+          <input type="text" name="smoothie3" required
+            oninvalid="this.setCustomValidity('Hey! Smoothie Time!')"
+            oninput="setCustomValidity('')"/>
         </li>
         <li>
           <label for="smoothie4">Favorite Color:</label>
-          <input type="text" name="smoothie4" required/>
+          <input type="text" name="smoothie4" required
+            oninvalid="this.setCustomValidity('Hey! Smoothie Time!')"
+            oninput="setCustomValidity('')"/>
         </li>
         <li>
           <label for="smoothie5">Favorite Cuisine:</label>
-          <input type="text" name="smoothie5" required/>
+          <input type="text" name="smoothie5" required
+            oninvalid="this.setCustomValidity('Hey! Smoothie Time!')"
+            oninput="setCustomValidity('')"/>
         </li>
         <li>
           <label for="smoothie6">Noun (Edible....or not):</label>
-          <input type="text" name="smoothie6" required/>
+          <input type="text" name="smoothie6" required
+            oninvalid="this.setCustomValidity('Hey! Smoothie Time!')"
+            oninput="setCustomValidity('')"/>
         </li>
         <li>
           <label for="smoothie7">Adverb:</label>
-          <input type="text" name="smoothie7" required/>
+          <input type="text" name="smoothie7" required
+            oninvalid="this.setCustomValidity('Hey! Smoothie Time!')"
+            oninput="setCustomValidity('')"/>
         </li>
         <li>
           <label for="smoothie8">Favorite Alcoholic Beverage:</label>
-          <input type="text" name="smoothie8" required/>
+          <input type="text" name="smoothie8" required
+            oninvalid="this.setCustomValidity('Hey! Smoothie Time!')"
+            oninput="setCustomValidity('')"/>
         </li>
         <li>
           <label for="smoothie9">Noun:</label>
-          <input type="text" name="smoothie9" required/>
+          <input type="text" name="smoothie9" required
+            oninvalid="this.setCustomValidity('Hey! Smoothie Time!')"
+            oninput="setCustomValidity('')"/>
         </li>
 
+       <div class="button">
         <input type="submit" value="BLEND!" />
         <input type="reset" onclick=resetform() value="Reset" />
+      </div>
 
       </ul>
+
     </form>
+
   </div>
 
-  <div class=inputform>
-
+  <div class=wrapper>
     <h2>Directions</h2>
+  </div>
 
+ <div class=wrapper>
     <p id="myMsg">
     </p>
-
-
   </div>
 
-
-  <script src="sketch.js" type="text/javascript"></script>
-
+  <script src="script.js" type="text/javascript"></script>
 
 </body>
 
