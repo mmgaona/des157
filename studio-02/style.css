@@ -15,7 +15,7 @@ h1 {
 }
 
 h2 {
-  font-size: 2em;
+  font-size: 2.5em;
   font-family: 'Noto Sans', sans-serif;
   font-weight: bolder;
   color: white;
@@ -24,7 +24,7 @@ h2 {
 p {
   padding-left: 35px;
   padding-right: 35px;
-  font-size: 1em;
+  font-size: 1.3em;
   font-family: helvetica, sans-serif;
   font-weight: lighter;
   color: white;

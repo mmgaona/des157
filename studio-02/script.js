@@ -8,6 +8,7 @@ var close = document.getElementById('close');
 var footer = document.getElementById('footer');
 var closeButton = document.getElementById('closeButton');
 
+
 iphoneButton.addEventListener('mouseover', function() {
   iphoneButton.style.opacity="0.4";
   if (iphoneButton.style.width > "100px") {
@@ -41,7 +42,6 @@ backpackButton.addEventListener('mouseout', function() {
   backpackButton.style.opacity="1";
 });
 
-
 backpackButton.addEventListener('click', function() {
   backpack.style.display="inline";
   iphone.style.display="none"
@@ -71,6 +71,7 @@ notebookButton.addEventListener('click', function() {
   title.style.display="none";
   close.style.display="inline";
   footer.style.display="none";
+
 });
 
 iphoneButton.addEventListener('click', function() {
@@ -88,10 +89,6 @@ iphoneButton.addEventListener('click', function() {
   close.style.display="inline";
   footer.style.display="none";
 
-  if (window.screen > "751px") {
-    close.style.marginLeft="-70%";
-    iphoneButton.style.marginLeft="-10%";
-  }
 });
 
 
