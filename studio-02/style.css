@@ -22,10 +22,13 @@ h2 {
 }
 
 p {
+  padding-left: 35px;
+  padding-right: 35px;
   font-size: 1em;
   font-family: helvetica, sans-serif;
   font-weight: lighter;
   color: white;
+  text-align: left;
 }
 
 
@@ -106,7 +109,7 @@ a:hover {
 /*********      MOBILE CSS      *********/
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 750px) {
 
   body {
     margin-left: 24%;
@@ -116,6 +119,7 @@ a:hover {
   h1{
     font-size: 3em;
   }
+
 
   #backpackButton {
     display: inline;

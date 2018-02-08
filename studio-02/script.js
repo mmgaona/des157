@@ -7,7 +7,6 @@ var title = document.getElementById('title');
 var close = document.getElementById('close');
 var footer = document.getElementById('footer');
 var closeButton = document.getElementById('closeButton');
-var img = document.getElementsByTagName('img');
 
 iphoneButton.addEventListener('mouseover', function() {
   iphoneButton.style.opacity="0.4";
@@ -54,7 +53,6 @@ backpackButton.addEventListener('click', function() {
   backpackButton.style.marginLeft="-34%";
   close.style.backgroundColor="#f4e52a";
   title.style.display="none";
-  // close.style.marginTop="-42.3%";
   close.style.display="inline";
   footer.style.display="none";
 });
@@ -71,7 +69,6 @@ notebookButton.addEventListener('click', function() {
   notebookButton.style.marginTop="9%";
   close.style.backgroundColor="#003840";
   title.style.display="none";
-  // close.style.marginTop="-33.5%";
   close.style.display="inline";
   footer.style.display="none";
 });
@@ -88,9 +85,13 @@ iphoneButton.addEventListener('click', function() {
   iphoneButton.style.paddingRight="10%";
   close.style.backgroundColor="#e31985";
   title.style.display="none";
-  // close.style.marginTop="-45.5%";
   close.style.display="inline";
   footer.style.display="none";
+
+  if (window.screen > "751px") {
+    close.style.marginLeft="-70%";
+    iphoneButton.style.marginLeft="-10%";
+  }
 });
 
 
