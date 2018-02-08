@@ -1,0 +1,141 @@
+/*********      BEGIN CSS      *********/
+
+
+body {
+  text-align: center;
+  margin-top: 35px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 6em;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: bolder;
+  color: black;
+}
+
+h2 {
+  font-size: 2em;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: bolder;
+  color: white;
+}
+
+p {
+  font-size: 1em;
+  font-family: helvetica, sans-serif;
+  font-weight: lighter;
+  color: white;
+}
+
+
+#backpackButton{
+  margin-right: 10%;
+  margin-top: 30px;
+  display: inline;
+  margin-left: 3%;
+  width: 200px;
+}
+
+#notebookButton {
+  margin-right: 12%;
+  margin-top: 30px;
+  display: inline;
+  width: 250px;
+}
+
+#iphoneButton {
+  margin-right: 4%;
+  margin-top: 30px;
+  display: inline;
+  width: 100px;
+}
+
+footer {
+  display: run-in;
+  clear: both;
+  text-align: center;
+  margin-top: 185px;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 14px;
+  font-variant: small-caps;
+  color: black;
+}
+
+a:link {
+  text-decoration: none;
+  color: gray;
+}
+
+a:visited {
+  color: gray;
+}
+
+a:hover {
+  color: tomato;
+}
+
+#closeButton {
+  margin-left: 450px;
+  margin-top: 15px;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#close {
+  position: absolute;
+  display: none;
+  width: 500px;
+  height: 650px;
+}
+
+#iphone {
+  display: none;
+}
+
+#notebook {
+  display: none;
+}
+
+#backpack{
+  display: none;
+}
+
+
+/*********      MOBILE CSS      *********/
+
+
+@media only screen and (max-width: 768px) {
+
+  body {
+    margin-left: 24%;
+    max-width: 400px;
+  }
+
+  h1{
+    font-size: 3em;
+  }
+
+  #backpackButton {
+    display: inline;
+    padding-top: 7%;
+  }
+
+  #notebookButton {
+    display: inline;
+    padding-top: 20%;
+  }
+
+  #iphoneButton {
+    display: inline;
+    padding-top: 20%;
+  }
+
+  #close {
+    margin-top: 800px;
+    margin-left: -500px;
+  }
+
+
+}

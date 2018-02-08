@@ -54,7 +54,7 @@ ul {
 }
 
 p {
-	background-color:rgba(0, 0, 0, 0.7);
+	background-color: rgba(0, 0, 0, 0.7);
 	position: absolute;
 	display: inline-block;
 	margin-left: 40%;
@@ -88,3 +88,5 @@ a:link {
 	text-decoration: none;
 	color: white;
 }
+
+/*********      END CSS      *********/
