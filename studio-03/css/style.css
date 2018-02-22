@@ -1,0 +1,41 @@
+body > div {
+  text-align: center;
+  margin-top: 4rem;
+  >div {
+    + div {
+      margin-top: 1rem;
+    }
+  }
+}
+
+input {
+  width : 60px;
+  height: 60px;
+}
+
+input[type="checkbox"]:checked {
+  outline: none;
+}
+
+
+
+#oneDiv {
+  padding-left: 25px;
+  margin: auto;
+  max-width: 600px;
+  background-color: tomato;
+}
+
+#twoDiv {
+  padding-left: 25px;
+  margin: auto;
+  max-width: 600px;
+  background-color: blue;
+}
+
+#threeDiv {
+  padding-left: 25px;
+  margin: auto;
+  max-width: 600px;
+  background-color: green;
+}
