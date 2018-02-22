@@ -53,6 +53,22 @@ h1 {
   background-color: #BDD09C;
 }
 
+p {
+  font-family: helvetica, sans-serif;
+  position: absolute;
+  display: block;
+  margin-left: 25%;
+  padding-top: 10px;
+}
+
+#enote {
+  padding-top: 74px;
+}
+
+#gnote {
+  padding-top: 140px;
+}
+
 a, footer {
 	text-align: center;
 }
