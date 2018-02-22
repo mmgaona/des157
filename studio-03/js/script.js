@@ -15,7 +15,7 @@ synths.forEach(function (synth) {
 });
 
 var $rows = document.querySelectorAll('div > div'),
-    notes = ['B', 'F', 'C'];
+    notes = ['C', 'E', 'G'];
 var index = 0;
 
 Tone.Transport.scheduleRepeat(repeat, '8n');
