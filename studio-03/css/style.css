@@ -1,3 +1,8 @@
+/*********     BEGIN CSS     *********/
+
+
+/*********     Structure for rows in nested divs     *********/
+
 body > div {
   text-align: center;
   margin-top: 4rem;
@@ -8,19 +13,22 @@ body > div {
   }
 }
 
+
+/*********     Spacing for checkboxes     *********/
+
 input {
   width : 60px;
   height: 60px;
 }
 
-input[type="checkbox"]:checked {
-  ;
-}
 
+/*********     Positioning for group of rows     *********/
 
 div{
   margin-top: 5rem;
 }
+
+/*********     Title "Click to make sounds"    *********/
 
 h1 {
   margin-top: 3%;
@@ -31,6 +39,8 @@ h1 {
   text-align: center;
 }
 
+
+/*********     Styling for rows     *********/
 
 #oneDiv {
   padding-left: 35px;
@@ -53,6 +63,8 @@ h1 {
   background-color: #BDD09C;
 }
 
+/*********     Styling for note indicators     *********/
+
 p {
   font-family: helvetica, sans-serif;
   position: absolute;
@@ -68,6 +80,8 @@ p {
 #gnote {
   padding-top: 140px;
 }
+
+/*********     Footer styling    *********/
 
 a, footer {
 	text-align: center;
@@ -95,3 +109,5 @@ footer {
   text-align: center;
   font-family: helvetica, sans-serif;
 }
+
+/*********     END CSS     *********/
