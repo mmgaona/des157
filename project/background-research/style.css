@@ -1,0 +1,22 @@
+body {
+  text-align: center;
+  font-family: helvetica, sans-serif;
+}
+
+p {
+  margin: auto;
+  text-align: left;
+  width: 800px;
+  padding: 40px;
+  font-weight: lighter;
+}
+
+#worksCited {
+  text-align: center;
+}
+
+h1 {
+  font-family: helvetica, sans-serif;
+  font-size: 3em;
+  color: rgb(90,90,90);
+}
