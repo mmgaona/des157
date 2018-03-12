@@ -1,0 +1,20 @@
+/***** BEGIN CSS *****/
+
+body {
+  max-width: 800px;
+  margin: auto;
+}
+
+div {
+  position: inline-block;
+  margin-top: 7%;
+  height:470px;
+  width: 800px;
+  background-color: #CECDCF;
+}
+
+h1 {
+  font-family: helvetica;
+  color: lightblue;
+  margin-top: 10%;
+}
