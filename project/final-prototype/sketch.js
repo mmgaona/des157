@@ -11,13 +11,13 @@ function CenterControl(controlDiv, map) {
   controlUI.style.borderRadius = '15px';
   controlUI.style.boxShadow = '0 3px 6px rgba(0,0,0,.5)';
   controlUI.style.cursor = 'pointer';
-  controlUI.style.marginTop = '22px';
+  controlUI.style.marginTop = '10px';
   controlUI.style.textAlign = 'center';
   controlUI.title = 'Click to recenter the map';
   controlDiv.appendChild(controlUI);
 
   var controlText = document.createElement('div');
-  controlText.style.color = 'rgb(25,125,220)';
+  controlText.style.color = 'rgb(85,150,205)';
   controlText.style.fontFamily = 'Helvetica, sans-serif';
   controlText.style.fontSize = '16px';
   controlText.style.lineHeight = '38px';
@@ -41,8 +41,10 @@ function initMap() {
   var options = {
     zoom: 15,
     center: ucDavis,
+    streetViewControl: false,
     mapTypeId: 'roadmap'
   }
+
 
   var map = new google.maps.Map(document.getElementById('mapid'), options);
 
@@ -52,11 +54,11 @@ function initMap() {
       lng: -121.75163780000002
     },
     map: map,
-    icon: 'images/handicap.png'
+    icon: 'images/handicaplogo.png'
   });
 
   var infoWindow = new google.maps.InfoWindow({
-    content: '<h1>Student Community Center</h1>'
+    content: '<h1>Student Community Center</h1><br><a href="scc.html"><img src="images/sccmappic.png" width=500px alt="scc"></a><p><strong>397 Hutchison Dr</strong><br>Click for accessibility options</p>'
   });
 
   marker.addListener('click', function() {
@@ -71,4 +73,33 @@ function initMap() {
   centerControlDiv.index = 1;
   map.controls[google.maps.ControlPosition.TOP_CENTER].push(centerControlDiv);
 
+}
+
+
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
 }
