@@ -1,0 +1,55 @@
+/***** BEGIN CSS *****/
+
+body {
+  margin-top: 35px;
+  margin-left: 80px;
+
+}
+
+ul {
+  display: inline-block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 400px;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+li a {
+  display: block;
+  font-family: helvetica;
+  font-weight: bold;
+  font-variant: small-caps;
+  text-align: center;
+  font-size: 1.5em;
+  letter-spacing: 0.31em;
+  color: gray;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li{
+  margin-top: 15px;
+}
+
+li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+#mapid {
+  margin-top: 2%;
+  margin-left: 35%;
+  position: fixed;
+  width: 800px;
+  height: 670px;
+}
+
+h1{
+  font-family: helvetica;
+  font-weight: lighter;
+  color: lightblue;
+  text-align: center;
+}
