@@ -1,7 +1,11 @@
+//Begin Google Maps API Code
+
 var ucDavis = {
   lat: 38.5382,
   lng: -121.761
 };
+
+//Map Centering to UC Davis
 
 function CenterControl(controlDiv, map) {
 
@@ -36,6 +40,7 @@ function CenterControl(controlDiv, map) {
 
 }
 
+//Initializing Map
 
 function initMap() {
   var options = {
@@ -75,7 +80,11 @@ function initMap() {
 
 }
 
+//End Google Map API Code
 
+
+
+//Begin Code for Picture Slides
 
 var slideIndex = 1;
 showSlides(slideIndex);
@@ -103,3 +112,5 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
+
+//End Code for Picture Slides
